@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.navigation.NavGraph xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/homeFragment">
+
+
+    <fragment
+        android:id="@+id/readFragment"
+        android:name="com.example.uasmobileradite_lib.ReadFragment"
+        android:label="Read" />
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.uasmobileradite_lib.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.uasmobileradite_lib.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.uasmobileradite_lib.DetailBookFragment"
+        android:label="Detail" />
+
+    <fragment
+        android:id="@+id/libraryFragment"
+        android:name="com.example.uasmobileradite_lib.LibraryFragment"
+        android:label="Library"
+        tools:layout="@layout/fragment_library" />
+</androidx.navigation.NavGraph>
